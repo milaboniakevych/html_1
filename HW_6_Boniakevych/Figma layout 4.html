@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 22vh;
+            background: #8D8484;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            height: 56vh;
+            display: flex;
+        }
+        section{
+            height: 100%;
+            width: 70vw;
+        }
+        section div{
+            height: 33.3%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row-1{
+            background: #776969;
+        }
+        .row-2{
+            background: #643030;
+        }
+        .row-3{
+            background: #441818;
+        }
+        main aside{
+            height: 100%;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+        }
+        aside div{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .block-1{
+            background: #937575;
+        }
+        .block-2{
+            background: #644C4C;
+        }
+        footer{
+            height: 22vh;
+            background: #BDBDBD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            text-align: center;
+            font-family: Inter;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        main span{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header><span>Header</span></header>
+    <main>
+        <section>
+            <div class="row-1"><span>Content-1</span></div>
+            <div class="row-2"><span>Content-2</span></div>
+            <div class="row-3"><span>Content-3</span></div>
+        </section>
+        <aside>
+            <div class="block-1"><span>Spam-1</span></div>
+            <div class="block-2"><span>Spam-2</span></div>
+        </aside>
+    </main>
+    <footer><span>Footer</span></footer>
+
+</body>
+</html>

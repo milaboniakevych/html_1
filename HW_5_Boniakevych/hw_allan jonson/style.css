@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.active{
+    color: #000097;
+}
+/*-------------------HOME------------------*/
+/*----------header-------------*/
+header{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav{
+    width: 60%;
+}
+
+header nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #64649a;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover{
+    color: #000000;
+    transition: 0.7s;
+}
+
+header div{
+    text-align: center;
+}
+
+/*---------section-------------*/
+
+section{
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("img.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.first-text{
+    margin-top: 10vh;
+}
+
+section p{
+    font-size: 20px;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+section button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+section button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/*--------contact page-------------*/
+.contacts{
+    width: 90%;
+    height: 85vh;
+    background-color: ghostwhite;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.text-section{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+}
+.image-section{
+    background-image: url("img2.jpg");
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 10px 10px 0;
+
+}
+.href{
+    font-size: 20px;
+    text-decoration: none;
+}

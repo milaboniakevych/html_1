@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <style>
+        *{
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        .section{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .section h2{
+            font-size: 30px;
+        }
+        .section p{
+            font-size: 20px;
+            width: 80%;
+        }
+        .section a{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+        #first {
+            background-color: #9b7fff;
+        }
+        #second {
+            background-color: aquamarine;
+        }
+        #third {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="first" class="section">
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi explicabo id magni modi quos recusandae repudiandae tempora voluptate! At corporis dignissimos numquam quia recusandae reiciendis sint totam unde voluptatem! Ab accusantium ad doloremque eius ex fugiat iste, iusto maxime minima nobis pariatur placeat porro praesentium quam tempore voluptates voluptatibus. Eos ex iure laborum, natus odit tenetur voluptates! A et eum rerum tempora tempore. Aliquam architecto autem laboriosam perspiciatis praesentium quibusdam.</p>
+        <a href="#second">&#9660;</a>
+    </div>
+    <div id="second" class="section">
+        <a href="#first">&#9650;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi explicabo id magni modi quos recusandae repudiandae tempora voluptate! At corporis dignissimos numquam quia recusandae reiciendis sint totam unde voluptatem! Ab accusantium ad doloremque eius ex fugiat iste, iusto maxime minima nobis pariatur placeat porro praesentium quam tempore voluptates voluptatibus. Eos ex iure laborum, natus odit tenetur voluptates! A et eum rerum tempora tempore. Aliquam architecto autem laboriosam perspiciatis praesentium quibusdam.</p>
+        <a href="#third">&#9660;</a>
+    </div>
+    <div id="third" class="section">
+        <a href="#second">&#9650;</a>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi explicabo id magni modi quos recusandae repudiandae tempora voluptate! At corporis dignissimos numquam quia recusandae reiciendis sint totam unde voluptatem! Ab accusantium ad doloremque eius ex fugiat iste, iusto maxime minima nobis pariatur placeat porro praesentium quam tempore voluptates voluptatibus. Eos ex iure laborum, natus odit tenetur voluptates! A et eum rerum tempora tempore. Aliquam architecto autem laboriosam perspiciatis praesentium quibusdam.</p>
+    </div>
+
+</body>
+</html>
