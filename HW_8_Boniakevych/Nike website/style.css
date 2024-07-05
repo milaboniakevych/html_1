@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*--------------header---------------*/
+
+header{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*----------------main----------------*/
+
+main{
+    background: #FBF6F3;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+.description{
+    height: 653px;
+    width: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+}
+h2, h3{
+    color: #000;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price{
+    color: #AD0306;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 37px 0 37px 0;
+
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.deal{
+    color: #000;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 48px 0 0 0;
+}
