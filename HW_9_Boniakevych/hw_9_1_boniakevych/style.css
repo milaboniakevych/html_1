@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: white;
+    height: 50vh;
+    width: 35vw;
+    margin-top: 20vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+}
+section h3{
+    background-color: #e4fdfd;
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 10px;
+    gap: 15px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 400px;
+    height: 40px;
+}
+section form div{
+    width: 400px;
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section form div button{
+    padding: 7px 40px 7px 40px;
+    border-radius: 10px;
+    border: dimgray solid 1px;
+    background-color: #e4fdfd;
+}
+section form div button:hover{
+    border: black solid 1px;
+    background-color: #dadada;
+}
+section form div button:active{
+    border: black solid 2px;
+    background-color: #717171;
+}
+input[type="checkbox"]{
+    margin-left: 5px;
+    vertical-align: middle;
+}
