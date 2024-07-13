@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading...</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 400px;
+            height: 500px;
+
+            margin-top: 80px;
+            gap: 30px;
+        }
+        div>div:nth-child(n){
+            background-color: #2197df;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+        }
+        div>div:nth-child(1){
+            animation: circle 1s linear infinite alternate;
+            animation-delay: 0s;
+        }
+        div>div:nth-child(2){
+            animation: circle 1s ease-out infinite alternate;
+            animation-delay: 0.2s;
+        }
+        div>div:nth-child(3){
+            animation: circle 1s ease-out infinite alternate;
+            animation-delay: 0.4s;
+        }
+        div>div:nth-child(4){
+            animation: circle 1s ease-out infinite alternate;
+            animation-delay: 0.6s;
+        }
+        div>div:nth-child(5){
+            animation: circle 1s ease-out infinite alternate;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes circle {
+            from{
+                background-color: #2197df;
+                transform: scale(1);
+            }
+            to{
+                background-color: rgba(33, 151, 223, 0.5);
+                transform: scale(1.5);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+</html>
