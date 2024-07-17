@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+
+/*-----------------navigation------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+
+    padding-right: 100px;
+    padding-left: 100px;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+nav>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+}
+nav>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+}
+nav div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav div h1{
+    color: white;
+}
+header>nav>div>img{
+    border-radius: 7px;
+}
+header>nav>div:last-child>button{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*------------------part of the screen with animation-----------------------*/
+
+.video-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+.video-box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    width: 30vw;
+
+    gap: 20px;
+}
+.video-box div h2{
+    font-size: 18px;
+    color: white;
+}
+.video-box div form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    width: 30vw;
+    height: 7vh;
+
+    padding: 0 10px;
+
+    border-radius: 5px;
+}
+.video-box div form button:nth-child(1){
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3px;
+
+    padding: 5px;
+
+}
+.video-box div form button:nth-child(1)>img{
+    height: 3vh;
+}
+.video-box>div>form>button:last-child{
+    padding-right: 10px;
+    background-color: white;
+    border: none;
+}
+
+.video-box div form input[type="search"]{
+    height: 5vh;
+    width: 20vw;
+
+    padding-left: 10px;
+
+    border: none;
+}
+.video-box div form input[type="search"]:focus{
+    outline: none;
+}
+
+/*-------------------background video----------------*/
+
+video{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
