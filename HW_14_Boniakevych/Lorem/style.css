@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+/*---------------navigation bar-----------------*/
+nav{
+    height: 113px;
+    width: 1400px;
+
+    background: #24204A;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 115px;
+    box-shadow: 0 3px 11px 0 rgba(0,0,0,0.75);
+
+    position: fixed;
+    top: 0;
+
+}
+nav>p{
+    color: #E5E5E5;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    opacity: 0.6;
+}
+
+nav>div{
+    display: flex;
+}
+nav>div>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 65px;
+
+}
+nav>div>ul>li{
+    list-style-type: none;
+
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    opacity: 0.6;
+
+}
+nav>div>ul>li a{
+    text-decoration: none;
+
+}
+
+/*-----------------header--------------------*/
+
+header{
+    width: 1400px;
+    height: 651px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #24204A;
+
+    position: relative;
+    z-index: -1;
+}
+
+header>div:first-child{
+    width: 573px;
+    height: 366px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+header>div>div{
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+
+    width: 145px;
+    height: 41px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background: #4B4864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+header>div>h1{
+    height: 88px;
+
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+header>div>p{
+    height: 85px;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+header>div>button{
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+
+    border-style: none;
+
+    border-radius: 8px;
+    background: #3F50E7;
+
+    /* 1 */
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header>div:last-child{
+    width: 375px;
+    height: 411px;
+
+
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 48px 28px 45px 29px;
+
+}
+/*---------------------page 2--------------------------*/
+
+section{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 58px;
+
+    width: 1400px;
+    height: 764px;
+
+    background: #071341;
+}
+section>div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 156px;
+
+    gap: 73px;
+}
+section>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 176px;
+    height: 56px;
+
+    gap: 18px;
+}
+
+section>div>div>div:first-child{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section>div>div>div>h5{
+    width: 38px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+section>div>div>div>p{
+    width: 101px;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+section>div>div>div:last-child{
+    gap: 3px;
+}
+
+.middle-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    width: 1074px;
+    height: 165px;
+
+    gap: 15px;
+
+}
+.middle-text h2{
+    width: 1074px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+.middle-text p{
+    color:#8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+.bottom-boxes{
+    width: 1171px;
+    height: 206px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-boxes div{
+    width: 209px;
+    height: 206px;
+
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 44px;
+
+}
+.bottom-boxes div p{
+    width: 178px;
+
+    color: #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+/*------------------page 3--------------------*/
+
+.map{
+    height: 758px;
+    width: 1400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+}
+.map>p{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+
+    padding-bottom: 35px;
+}
