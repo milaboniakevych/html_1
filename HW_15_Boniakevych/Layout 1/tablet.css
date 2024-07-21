@@ -1,0 +1,44 @@
+@media screen and (min-width: 740px) and (max-width: 1024px){
+
+    main{
+        width: 768px;
+        height: 828px;
+        padding: 48px 24px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    main>div{
+        width: 720px;
+        height: 732px;
+        flex-direction: column;
+    }
+    main>div>section:first-child{
+        width: 720px;
+        height: 303px;
+        gap: 16px;
+    }
+    main>div>section:first-child>h1{
+        font-size: 48px;
+        letter-spacing: 0.25px;
+    }
+    main>div>section:first-child>ul{
+        height: 84px;
+        width: 720px;
+    }
+    main>div>section:first-child>ul>li{
+        font-size: 20px;
+    }
+
+
+
+
+    main>div>section:last-child{
+        width: 720px;
+        height: 405px;
+    }
+    iframe{
+        height: 100%;
+    }
+
+}
