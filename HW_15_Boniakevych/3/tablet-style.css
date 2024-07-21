@@ -1,0 +1,52 @@
+@media screen and (min-width: 481px) and (max-width: 1023px){
+    header{
+        padding: 25px 45px;
+    }
+    main{
+        flex-direction: row;
+    }
+    main{
+        height: 44vh;
+    }
+
+    main div{
+        height: 100%;
+        width: 50%;
+    }
+
+    main div section h3{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+
+        margin-top: 10px;
+    }
+
+    main>div:first-child>section:first-child{
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+
+    }
+
+    main>div:first-child>section:last-child{
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+
+    main>div:last-child>section:first-child{
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+
+    main>div:last-child>section:last-child{
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+    footer{
+        margin-top: 0;
+        height: 10vh;
+    }
+}

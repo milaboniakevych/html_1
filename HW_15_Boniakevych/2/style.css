@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 10px;
+    gap: 10px;
+}
+header{
+    background-color: #B3A0CD;
+    height: 30%;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+main{
+    height: 70%;
+    width: 100%;
+    display: flex;
+
+    gap: 10px;
+}
+section{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+aside{
+    background-color: #B3A0CD;
+    height: 100%;
+    width: 20%;
+
+    border-radius: 10px;
+}
+section>div:first-child{
+    background-color: #B3A0CD;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    border-radius: 10px;
+}
+section>div:last-child{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+section>div:last-child div:first-child{
+    background-color: #B3A0CD;
+    height: 100%;
+    width: 33%;
+
+    border-radius: 10px;
+
+}
+section>div:last-child>div:nth-child(2){
+    background-color: #B3A0CD;
+    height: 100%;
+    width: 33%;
+
+    border-radius: 10px;
+
+}
+section>div:last-child>div:last-child{
+    background-color: #B3A0CD;
+    height: 100%;
+    width: 33%;
+
+    border-radius: 10px;
+}
