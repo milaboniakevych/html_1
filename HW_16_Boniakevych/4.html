@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        div{
+            height: 100vh;
+            display: grid;
+            grid-auto-columns: 3fr 1fr;
+            grid-auto-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+            grid-template-areas:
+            'header header'
+            'content-1 spam-1'
+            'content-1 spam-1'
+            'content-2 spam-1'
+            'content-2 spam-2'
+            'content-3 spam-2'
+            'content-3 spam-2'
+            'footer footer'
+        ;
+            text-align: center;
+        }
+
+        article, aside{
+            color: white;
+            font-family: Inter, sans-serif;
+            font-size: 45px;
+        }
+        footer, header{
+            font-family: Inter, sans-serif;
+            font-size: 45px;
+        }
+        header{
+            grid-area: header;
+            background: #8D8484;
+        }
+
+        div>article:nth-child(2){
+            grid-area: content-1;
+            background: #776969;
+        }
+        div>article:nth-child(3){
+            grid-area: content-2;
+            background: #643030;
+        }
+        div>article:last-of-type{
+            grid-area: content-3;
+            background: #441818;
+        }
+        div>aside:first-of-type{
+            grid-area: spam-1;
+            background: #937575;
+        }
+        div>aside:last-of-type{
+            grid-area: spam-2;
+            background: #644C4C;
+        }
+        footer{
+            grid-area: footer;
+            background: #BDBDBD;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <header><span>Header</span></header>
+        <article><span>Content-1</span></article>
+        <article><span>Content-2</span></article>
+        <article><span>Content-3</span></article>
+        <aside><span>Spam-1</span></aside>
+        <aside><span>Spam-2</span></aside>
+        <footer><span>footer</span></footer>
+    </div>
+
+</body>
+</html>
