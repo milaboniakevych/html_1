@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+div{
+    height: 100vh;
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'header header header header'
+    'section section section aside'
+    'artl1 artl2 artl3 aside'
+;
+    gap: 5px;
+    padding: 5px;
+}
+header{
+    grid-area: header;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}
+section{
+    grid-area: section;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}
+div>article:nth-child(3){
+    grid-area: artl1;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}
+div>article:nth-child(4){
+    grid-area: artl2;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}
+div>article:nth-child(5){
+    grid-area: artl3;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}
+aside{
+    grid-area: aside;
+    background-color: #B3A0CD;
+    border-radius: 10px;
+
+}

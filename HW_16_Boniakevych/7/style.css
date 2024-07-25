@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+div{
+    height: 100vh;
+    display: grid;
+    grid-auto-columns: 3fr 1fr;
+    grid-auto-rows: 1fr 2fr;
+    grid-template-areas:
+    'header header'
+    'section aside'
+;
+    gap: 5px;
+    padding: 5px;
+
+}
+header{
+    grid-area: header;
+    background-color: #b3a2ef;
+    border-radius: 10px;
+}
+section{
+    grid-area: section;
+    background-color: #b3a2ef;
+    border-radius: 10px;
+}
+aside{
+    grid-area: aside;
+    background-color: #b3a2ef;
+    border-radius: 10px;
+}
